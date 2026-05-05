@@ -5,7 +5,7 @@ This is a temporary script file.
 """
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 
 st.title('My First App')
@@ -34,14 +34,14 @@ st.write('the number is ',a)
 
 st.sidebar.title('Datasets')
 
-x=np.linspace(-np.pi,np.pi,100)
-y=np.cos(x)
+#x=np.linspace(-np.pi,np.pi,100)
+#y=np.cos(x)
 
-fig,ax=plt.subplots()
+#fig,ax=plt.subplots()
 
-ax.plot(x,y)
+#ax.plot(x,y)
 
-st.pyplot(fig)
+#st.pyplot(fig)
 
 
     
